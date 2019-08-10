@@ -12,9 +12,9 @@ import org.apache.commons.lang.StringUtils;
  **/
 public class CardServiceImpl implements CardService {
 
-  private static int CARD_MAX_WIDTH = 100;
+  private static int CARD_MAX_WIDTH = 50;
 
-  private static String TABLE_BOARD_CHAR = "#";
+  private static String TABLE_BOARD_CHAR = "`";
 
   private static int TABLE_BOARD_WIDTH = TABLE_BOARD_CHAR.length();
 
@@ -29,7 +29,7 @@ public class CardServiceImpl implements CardService {
   private static int AVAILABLE_MAX_WIDTH =
       CARD_MAX_WIDTH - 2 * CARD_BOARD_WIDTH - 2 * CARD_SPACE_WIDTH;
 
-  private static int TABLE_MAX_WIDTH = 80;
+  private static int TABLE_MAX_WIDTH = 40;
 
   private static int AVAILABLE_TABLE_MAX_WIDTH = TABLE_MAX_WIDTH - 2 * TABLE_BOARD_WIDTH;
 
